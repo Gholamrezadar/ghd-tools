@@ -1,0 +1,17 @@
+myobjs = for k=0 to 3 collect sphere radius10 pos[k30,0,0] wirecolor[143,224,87] 	
+for o in myobjs do (	at time 10 animate on o.radius = 15	)
+select myobjs
+
+--The code 
+theoffset = 0
+for foo in myobjs do movekeys foo.radius.controller ( theoffset +=8 )
+
+
+i = 0
+for obj in selection do
+(
+	at time 1 animate on (obj.visibility = false)
+	at time 2 animate on (obj.visibility = true)
+	movekeys obj (2*i)
+	i +=1
+)
