@@ -25,7 +25,7 @@ Name | Description | Size     | Download URL
 WinRar 💲 | Rar/Zip | ~6 MB | https://soft98.ir/software/compress/21-winrar-full.html
 IDM 💲 | Download Manager | ~10 MB | https://soft98.ir/internet/download-manager/4-internet-download-manager-4.html
 Chrome | Browser | ~90 MB| https://www.google.com/intl/en_uk/chrome/
-PotPlayer | Media Player | ~32 MB | https://www.jam-software.com/ultrasearch_free
+PotPlayer | Media Player | ~32 MB | https://potplayer.daum.net/
 Discord | Voice/Video Calls | ~80 MB | https://discord.com/download
 Skype| Voice/Video Calls | ~90 MB | https://www.skype.com/en/get-skype/
 
