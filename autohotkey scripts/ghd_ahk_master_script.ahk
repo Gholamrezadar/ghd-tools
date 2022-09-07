@@ -58,11 +58,11 @@ return
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Windows hotkeys ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Virtual Desktops ;;
-; f7 => previous virtual desktop
-f7::Send ^#{Left}
+; f3 => previous virtual desktop
+f3::Send ^#{Left}
 
-; f8 => next virtual desktop
-f8::Send ^#{Right}
+; f4 => next virtual desktop
+f4::Send ^#{Right}
 
 ;; Switch between instances/windows of an application ;;
 ; Ctrl+Win+1 <=> Win+1
