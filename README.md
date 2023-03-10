@@ -48,6 +48,7 @@ Gimp | Aweful Photoshop replacement | ~250 MB | https://www.gimp.org/downloads/
 Photoshop 💲 | Best | ~1.5 GB | https://soft98.ir/software/pic-tools/3153-%D8%AF%D8%A7%D9%86%D9%84%D9%80%D9%88%D8%AF-%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D9%80%D9%80%D8%B2%D8%A7%D8%B1-%D9%81%D9%80%D8%AA%D9%80%D9%88%D8%B4%D9%80%D8%A7%D9%BE.html
 Davinci Resolve | Video Editing | ~3.2 GB | https://www.blackmagicdesign.com/products/davinciresolve
 Davinci Resolve 💲 | Video Editing | ~3.2 GB | https://soft98.ir/multi-media/edit-video/17510-Davinci-Resolve.html
+Shotcut | Simple Video Editor | ~100 MB | https://shotcut.org/download/
 
 ### Utility Apps
 
