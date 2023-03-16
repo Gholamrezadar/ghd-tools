@@ -12,6 +12,20 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+	"Print v64": {
+		"prefix": "print_v64",
+		"body": [
+			"void print_v64(v64 A, string name=\"\"){",
+				"cout<<name<<\" = [\";",
+				"for(auto a : A)",
+				"{",
+					"cout<<a<<\", \";",
+				"}",
+				"cout<<\"]\"<<endl;",
+			"}",
+		],
+		"description": "Print a vector of long longs"
+	},
 	"GeeksforGeeks Competitive Programming C++ Template": {
 		"prefix": "cph",
 		"body": [
@@ -70,6 +84,13 @@
 			"#define all(x) (x).begin(), (x).end()",
 			"#define sz(x) ((ll)(x).size())",
 			"#pragma endregion",
+			"",
+			"ll nxt() {",
+				"\tll x;",
+				"\tcin >> x;",
+				"\treturn x;",
+			"}",
+			"",
 			"",
 			"void solve(){",
 			"",
