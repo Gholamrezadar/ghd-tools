@@ -4,7 +4,7 @@ My neovim, ohmyzsh, p10k, ... configs.
 `~/.zshrc`
 
 ## Powerlevel10k
-`.p10k.zsh`
+`~/.p10k.zsh`
 
 ## Neovim
 `~/.config/nvim/init.lua`
