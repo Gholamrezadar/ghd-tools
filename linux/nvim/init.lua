@@ -1,3 +1,8 @@
+-- for having init.lua and vimrc.vim at 
+-- the same time in the ~/.config/nvim directory
+local vimrc = vim.fn.stdpath("config") .. "/vimrc.vim"
+vim.cmd.source(vimrc)
+
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 -- Install package manager
@@ -33,6 +38,9 @@ require('lazy').setup({
 
   -- Startup time calculator
   'dstein64/vim-startuptime',
+
+  -- nerdtree
+  'preservim/nerdtree',
 
   -- start page
   'nvim-tree/nvim-web-devicons',
@@ -85,19 +93,26 @@ require('lazy').setup({
   },
 
   { -- Theme inspired by Atom
+    'folke/tokyonight.nvim',
+    priority = 1001,
+    config = function()
+      vim.cmd.colorscheme 'tokyonight-night' --'tokyonight-storm', tokyonight-dark'
+    end,
+  },
+--[[  { -- Theme inspired by Atom
     'navarasu/onedark.nvim',
     priority = 1000,
     config = function()
       vim.cmd.colorscheme 'onedark'
     end,
   },
-
+--]]
   { -- Set lualine as statusline
     'nvim-lualine/lualine.nvim',
     -- See `:help lualine.txt`
     opts = {
       options = {
-        icons_enabled = false,
+        icons_enabled = true,
         theme = 'onedark',
         component_separators = '|',
         section_separators = '',
@@ -210,7 +225,7 @@ vim.o.termguicolors = true
 -- Keymaps for better default experience
 -- See `:help vim.keymap.set()`
 vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
-
+vim.keymap.set({ 'n', 'v' }, '<C-t>', ':NERDTreeToggle<CR>', { silent = true })
 -- Remap for dealing with word wrap
 vim.keymap.set('n', 'k', "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = true })
 vim.keymap.set('n', 'j', "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true })
