@@ -16,6 +16,9 @@
 - Vim cheatsheet
 ![vim cheatsheet](cheatsheets/vim_cheatsheet.jpg)
 
+- tmux cheatsheet
+![tmux cheatsheet](cheatsheets/tmux_cheatsheet.jpg)
+
 ## 2. Useful windows apps
 
 ### Night's Bread
