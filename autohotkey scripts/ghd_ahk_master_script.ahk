@@ -57,8 +57,8 @@ return
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Windows hotkeys ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;; Nim-Fasele: Map shift+space to ctrl+alt+2 ;;
-+Space::Send ^!2
+;; Nim-Fasele: Map shift+space to ctrl+shift+2 ;;
++Space::Send ^+2
 
 ;; Disable Alt+f4 ;;
 !F4::Return
