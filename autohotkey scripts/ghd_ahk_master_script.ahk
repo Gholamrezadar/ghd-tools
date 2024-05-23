@@ -57,6 +57,10 @@ return
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Windows hotkeys ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+;; Win+Shift+Q ghd-screenshot (https://github.com/Gholamrezadar/GHD-screenshot)
+;; make sure to place ghd-screenshot.pyw in C:\
+#+Q::Run, pythonw C:\ghd-screenshot.pyw
+
 ;; Nim-Fasele: Map shift+space to ctrl+shift+2 ;;
 +Space::Send ^+2
 
